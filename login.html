@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <style>
+        body {
+            background-color: rgb(83, 202, 150);
+            font-family: Arial, sans-serif;
+        }
+        .login-container {
+            width: 350px;
+            margin: 80px auto;
+            background: #fff;
+            padding: 30px 40px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px #aaa;
+        }
+        h2 {
+            text-align: center;
+            margin-bottom: 25px;
+        }
+        label {
+            font-weight: bold;
+        }
+        input[type="text"], input[type="password"] {
+            width: 100%;
+            padding: 8px;
+            margin: 8px 0 16px 0;
+            border: 1px solid #aaa;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        input[type="submit"] {
+            width: 100%;
+            padding: 10px;
+            background: #011623;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+        input[type="submit"]:hover {
+            background: #8905bd;
+        }
+        .forgot {
+            display: block;
+            text-align: right;
+            margin-top: 10px;
+            color: #c9c9c9;
+            text-decoration: none;
+            font-size: 14px;
+        }
+        .forgot:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="login-container">
+        <h2><strong>LOGIN PAGE</strong></h2>
+        <form>
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" placeholder="Enter your username" required>
+            
+            <label for="pwd">Password:</label>
+            <input type="password" id="pwd" name="pwd" placeholder="Enter your password" required>
+            <input type="checkbox" id=  "remember" name="remember">
+            <input type="submit" value="LOGIN">
+            <a href="http://127.0.0.1:5501/registraion.html"> Register--Here</a>
+            
+           
+        </form>
+    </div>
+</body>
+</html>

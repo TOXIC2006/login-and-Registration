@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         body {
+            background-color: rgb(71, 200, 144);
+            font-family: Arial, sans-serif;
+        }
+        .login-container {
+            width: 350px;
+            margin: 80px auto;
+            background: #7e1616;
+            padding: 30px 40px;
+            border-radius: 100px;
+            box-shadow: 0 0 10px #aaa;
+        }
+        h2 {
+            text-align: center;
+            margin-bottom: 25px;
+        }
+        label {
+            font-weight: bold;
+        }
+        input[type="text"], input[type="password"] {
+            width: 100%;
+            padding: 8px;
+            margin: 8px 0 16px 0;
+            border: 1px solid #6e1818;
+            border-radius: 40px;
+            box-sizing: border-box;
+        }
+        input[type="submit"] {
+            width: 100%;
+            padding: 10px;
+            background: #011623;
+            color: #fff;
+            border: none;
+            border-radius: 40px;
+            font-size: 16px;
+            cursor: pointer;
+            
+        }
+        input[type="submit"]:hover {
+            background: #3e114f;
+        }
+        .forgot {
+            display: block;
+            text-align: right;
+            margin-top: 10px;
+            color: #c9c9c9;
+            text-decoration: none;
+            font-size: 14px;
+        }
+        .forgot:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+     <center>
+        <div style="border: 2px solid rgb(136, 115, 157); padding: 30px; width: 350px; border-radius: 30px; background: #4c77cd;">
+            <form align="center" class="registration-container">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username">
+                <label for="email">Email:</label>   
+                <input type="text" id="email" name="email"> 
+
+                <label for="password">Contact_Number:</label>
+                <input type="password" id="password" name="password"> 
+                
+                <label for="Address"  >Address:</label>
+                <textarea id="Address" name="address" cols="4" rows="4" style="width:300px;border-radius: 40px;"></textarea>
+                
+
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password">
+                <label for="gender"><strong>Gender(MALE/FEMALE)</strong></label><br>
+            
+                <label for="gender"><strong>MALE</strong></label>
+                <input type="checkbox" name="hobby" value="traveling">
+                <label for="gender"><strong>FEMALE</strong></label>
+                <input type="checkbox" name="hobby" value="traveling"><br>
+
+                <label for="date">Date of Birth:</label>
+                <input type="date" id="formdate" name="date"><br>
+                <a><input type="submit" value="Register"></a><br>
+                <a href="http://127.0.0.1:5501/login.html"><strong>Login....</strong></a>
+            </form>
+        </div>
+     </center>
+</body>
+</html>
